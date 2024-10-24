@@ -1,0 +1,16 @@
+cabal-version: 3.0
+name:          hat-types-gen
+version:       0.1.0.0
+homepage:      https://github.com/t4ccer/hat
+license:       AGPL-3.0-or-later
+author:        t4ccer
+maintainer:    t4ccer@gmail.com
+category:      Web
+build-type:    Simple
+
+executable hat-types-gen
+  main-is:          HatTypesGen.hs
+  default-language: Haskell2010
+  build-depends:
+    , base
+    , hat-lexicon
